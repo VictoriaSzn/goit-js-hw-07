@@ -15,12 +15,6 @@ function CreateMarkup (cards) {
             `;
     }).join('');
 }
-
-galleryDivEl.addEventListener('click', onModalWin);
-
-function onModalWin(evt) {
-    evt.preventDefault();
-
     let gallery = new SimpleLightbox('.gallery__item', {
         animationSlide: false,
         captionsData: "alt",
@@ -28,7 +22,6 @@ function onModalWin(evt) {
     });
     
    
-}
 
 
 
